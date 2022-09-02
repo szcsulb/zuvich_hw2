@@ -1,0 +1,35 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>Etiam vel Lacus Purus - Scott Zuvich</title>
+  <link rel="stylesheet" href="./site.css" type="text/css" />
+</head>
+<body>
+  <h1>Etiam vel Lacus Purus - Scott Zuvich</h1>
+  <h2>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</h2>
+<h4>Before continuing, you must register an account</h4>
+<p>If you feel you have reached this page in error, please go <a href="./index.html">back</a> to our website.</p>
+<form name="submitDetails" method="post" action="#">
+  <fieldset>
+    <legend>User Information</legend>
+    <p><label for="username"> Username: <input type="text" value="" placeholder="Enter your username" size="12" /></label></p>
+    <p><label for="passwd"> Password:&nbsp;&nbsp;<input type="password" value="" size="12" /></label></p>
+    <p><strong>Which group do you belong to?</strong> (Select all that apply)</p>
+    <label for="over13-yes"><input type="checkbox" name="group-1" id="group-1" /> Group 1</label><br />
+    <label for="group-2"><input type="checkbox" name="group-2" id="group-2" /> Group 2</label><br />
+    <p><strong>Would you like to sign up for our newletter?</strong></p>
+    <label for="newsletter"><input type="checkbox" name="newsletter" id="newsletter" value="1" /> Sign me up!</label>
+    <p><strong>Which newsletters would you like to receive?</strong></p>
+    <p><select name="newsletters" id="newsletters" multiple>
+      <option value="1">Newsletter One</option>
+      <option value="2">Newsletter Two</option>
+      <option value="3">Newsletter Three</option>
+      <option value="4">Newsletter Four</option>
+    </select></p>
+    <p><strong>Please enter the date of your last visit:</strong></p>
+    <p><label for="lastVisit">Date: <input type="date" name="lastVisit" id="lastVisit" /></label></p>
+    <input type="submit" value="Register" />
+  </fieldset>
+</form>
+</body>
+</html>
